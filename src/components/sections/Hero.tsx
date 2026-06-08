@@ -60,13 +60,13 @@ export default function Hero() {
       <div className="pointer-events-none absolute left-10 top-28 h-40 w-40 rounded-full bg-cyan-200/30 blur-3xl" />
       <div className="pointer-events-none absolute bottom-10 right-20 h-52 w-52 rounded-full bg-sky-200/40 blur-3xl" />
 
-      <div className="relative z-10 grid min-h-[80vh] w-full items-center gap-24 px-4 md:grid-cols-[1fr_0.9fr] lg:px-20 xl:px-28">
+      <div className="relative z-10 grid min-h-[80vh] w-full items-center gap-12 px-4 md:grid-cols-[1fr_0.9fr] lg:px-20 xl:px-28">
         <div className="hero-left md:pl-6 lg:pl-10">
           <p className="hero-text mb-4 text-sm font-semibold uppercase tracking-[0.35em] text-cyan-600">
             May&apos;s Portfolio
           </p>
 
-          <h2 className="hero-text text-4xl font-bold leading-tight text-slate-950 md:text-5xl">
+          <h2 className="hero-text text-3xl font-bold leading-tight text-slate-950 md:text-4xl xl:text-5xl">
             Hi, I'm{" "}
 <span className="relative">
   <span className="absolute -inset-1 rounded-lg bg-cyan-500/20 blur-lg"></span>
@@ -87,7 +87,7 @@ export default function Hero() {
 
           <div className="hero-text mt-7 h-1 w-45 rounded-full bg-cyan-400" />
 
-          <p className="hero-text mt-6 max-w-xl text-[24px] leading-[44px] text-slate-700">
+          <p className="hero-text mt-6 max-w-xl text-lg leading-8 xl:text-[22px] xl:leading-10 text-slate-700">
             I am passionate about full-stack development, real-time systems,
             DevOps, and AI automation. I enjoy building projects that solve real
             problems and can grow into production-ready applications.
@@ -138,7 +138,7 @@ export default function Hero() {
         </div>
 
         <div className="hero-right flex flex-col items-center md:items-center lg:pl-10">
-          <div className="profile-card relative mb-8 h-96 w-96 rounded-full bg-white p-2 shadow-2xl shadow-cyan-500/30 md:h-[420px] md:w-[420px]">
+          <div className="profile-card relative mb-8 h-72 w-72 rounded-full bg-white p-2 shadow-2xl shadow-cyan-500/30 md:h-80 md:w-80 xl:h-[400px] xl:w-[400px]">
             <div className="absolute inset-[-18px] -z-10 rounded-full bg-cyan-300/30 blur-2xl" />
 
             <img
@@ -148,7 +148,7 @@ export default function Hero() {
             />
           </div>
 
-          <h1 className="hero-text text-center text-4xl font-black tracking-tight md:text-6xl">
+          <h1 className="hero-text text-center text-3xl font-black tracking-tight md:text-5xl xl:text-6xl">
             <span className="bg-gradient-to-r from-cyan-700 to-sky-400 bg-clip-text text-transparent">
               MAY THET NAING BO
             </span>

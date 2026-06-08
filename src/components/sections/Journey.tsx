@@ -194,7 +194,7 @@ export default function EducationJourney() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="edu-photo overflow-hidden rounded-[2rem] border-8 border-white bg-white shadow-2xl shadow-cyan-500/20">
             <img
-              src="/graduation-2.jpg"
+              src="/graduation-2.JPG"
               alt="Graduation"
               className="h-auto w-full"
             />

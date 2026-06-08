@@ -45,7 +45,7 @@ export default function Home() {
                 animationDuration: `${8 + (i % 9)}s`,
               }}
             >
-              ✧
+              ❄️ 
             </span>
           ))}
 
@@ -77,7 +77,7 @@ export default function Home() {
     animationDuration: `${1.8 + (i % 4)}s`,
   }}
 >
-  ❆ 
+  ✦
 </span>
           ))}
       </div>

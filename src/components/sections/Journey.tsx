@@ -187,7 +187,7 @@ export default function EducationJourney() {
           </p>
 
           <h2 className="mt-4 text-4xl font-extrabold text-slate-950 md:text-5xl">
-            My Journey Here
+            My Journey Here!
           </h2>
         </div>
 

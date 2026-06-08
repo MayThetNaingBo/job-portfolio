@@ -85,6 +85,13 @@ export default function Projects() {
   const [showMore, setShowMore] = useState(false);
 
   const visibleProjects = showMore ? projects : projects.slice(0, 3);
+  useEffect(() => {
+  const refreshTimer = setTimeout(() => {
+    ScrollTrigger.refresh();
+  }, 300);
+
+  return () => clearTimeout(refreshTimer);
+}, [showMore]);
 
   useEffect(() => {
     const ctx = gsap.context(() => {

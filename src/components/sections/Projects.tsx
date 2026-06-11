@@ -132,13 +132,14 @@ rows.forEach((row, index) => {
     <section
       id="projects"
       ref={sectionRef}
-      className="relative overflow-hidden px-4 py-20 text-slate-900 sm:px-6 sm:py-24 lg:px-8 lg:py-28"
+      className="relative overflow-hidden px-4 py-14 text-slate-900 sm:px-6 sm:py-16 lg:px-8 lg:py-20"
     >
       <div className="mx-auto w-full max-w-7xl">
         <div className="mb-14 text-center sm:mb-20">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
-            My Work
+            My Work 
           </p>
+          
 
           <h2 className="mt-4 text-3xl font-extrabold text-slate-950 sm:text-4xl md:text-5xl">
             Featured Projects
@@ -146,7 +147,7 @@ rows.forEach((row, index) => {
 
           <div className="mx-auto mt-5 h-1 w-28 rounded-full bg-cyan-400 sm:w-44" />
 
-          <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-slate-700 sm:text-lg sm:leading-9 lg:text-xl lg:leading-10">
+          <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-slate-700 sm:text-4xl sm:leading-9 lg:text-xl lg:leading-10">
             Below is a showcase of the projects I have built so far for software
             engineering, DevOps, AI, and cloud learning.
           </p>
@@ -155,7 +156,7 @@ rows.forEach((row, index) => {
         <div className="relative mx-auto w-full">
           <div className="absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-cyan-300/60 lg:block" />
 
-          <div className="space-y-16 sm:space-y-20 lg:space-y-24">
+          <div className="space-y-12 sm:space-y-14 lg:space-y-16">
             {visibleProjects.map((project, index) => {
               const isLeft = index % 2 === 0;
 
@@ -171,7 +172,7 @@ rows.forEach((row, index) => {
                       isLeft ? "lg:pr-10" : "lg:pl-10"
                     }`}
                   >
-                    <div className="group relative w-full max-w-[620px] rounded-[1.5rem] border-[6px] border-white bg-white shadow-2xl shadow-cyan-500/20 sm:rounded-[2rem] sm:border-[8px]">
+                    <div className="group relative w-full max-w-[500px] rounded-[1.5rem] border-[6px] border-white bg-white shadow-2xl shadow-cyan-500/20 sm:rounded-[2rem] sm:border-[8px]">
                       <div className="overflow-hidden rounded-[1rem] bg-slate-950 sm:rounded-[1.5rem]">
                         <div className="aspect-[16/10] w-full overflow-hidden">
                           <img
@@ -206,19 +207,19 @@ rows.forEach((row, index) => {
                   </div>
 
                   <div
-                    className={`relative w-full max-w-[650px] text-center lg:text-left ${
+                    className={`relative w-full max-w-[540px] text-center lg:text-left ${
                       isLeft ? "lg:pl-16 xl:pl-20" : "lg:pr-16 xl:pr-20"
                     }`}
                   >
-                    <p className="project-roman mb-2 text-4xl font-black tracking-wider text-cyan-500 sm:text-5xl lg:text-6xl">
+                    <p className="project-roman mb-2 text-3xl font-black tracking-wider text-cyan-500 sm:text-4xl lg:text-5xl">
                       {romanNumbers[index]}
                     </p>
 
-                    <h3 className="mt-3 text-2xl font-extrabold leading-tight text-slate-950 sm:text-3xl md:text-4xl">
+                    <h3 className="mt-3 text-xl font-extrabold leading-tight text-slate-950 sm:text-2xl md:text-3xl">
                       {project.title}
                     </h3>
 
-                    <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg sm:leading-9 lg:text-xl lg:leading-10">
+                    <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8 lg:text-lg lg:leading-9">
                       {project.description}
                     </p>
 

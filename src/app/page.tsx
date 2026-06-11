@@ -21,13 +21,35 @@ export default function Home() {
           : "bg-gradient-to-br from-white via-sky-50 to-cyan-100 text-slate-900"
       }`}
     >
-      <button
-        onClick={() => setNightMode(!nightMode)}
-        className="fixed right-6 top-6 z-50 rounded-full border border-white/60 bg-white/70 px-5 py-3 text-sm font-bold text-slate-900 shadow-lg shadow-cyan-500/20 backdrop-blur-md transition hover:-translate-y-1"
-      >
-        {nightMode ? "☀ Day Mode" : "🌌 Night Mode"}
-      </button>
+     <button
+  onClick={() => setNightMode(!nightMode)}
+  aria-label="Toggle theme"
+  className={`fixed right-5 top-5 z-50 flex h-9 w-[82px] items-center rounded-full border px-1 shadow-lg backdrop-blur-xl transition-all duration-500 ${
+    nightMode
+      ? "border-cyan-400/30 bg-slate-950/90 shadow-cyan-500/20"
+      : "border-cyan-200/70 bg-gradient-to-r from-white via-cyan-50 to-sky-100 shadow-cyan-400/30"
+  }`}
+>
+  <span
+    className={`flex h-7 w-7 items-center justify-center rounded-full text-sm shadow-md transition-all duration-500 ${
+      nightMode
+        ? "translate-x-[45px] bg-cyan-400/20 text-cyan-200"
+        : "translate-x-0 bg-white text-slate-500"
+    }`}
+  >
+    {nightMode ? "🌙" : "🔆"}
+  </span>
 
+  <span
+    className={`absolute text-[10px] font-bold uppercase tracking-[0.12em] transition-all duration-500 ${
+      nightMode
+        ? "left-3 text-cyan-700"
+        : "right-3 text-cyan-700"
+    }`}
+  >
+    {nightMode ? "Night" : "Day"}
+  </span>
+</button>
       <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
         {!nightMode &&
           snowflakes.map((_, i) => (
@@ -77,7 +99,7 @@ export default function Home() {
     animationDuration: `${1.8 + (i % 4)}s`,
   }}
 >
-  ✧
+  🟄
 </span>
           ))}
       </div>
@@ -196,6 +218,22 @@ export default function Home() {
   -webkit-background-clip: text !important;
   color: transparent !important;
   -webkit-text-fill-color: transparent !important;
+}
+  .night-mode .contact-motion a {
+  background-color: transparent !important;
+  color: #f8fafc !important;
+}
+
+.night-mode .contact-motion a:hover {
+  background-color: rgba(34, 211, 238, 0.08) !important;
+}
+
+.night-mode .contact-motion a p {
+  color: #f8fafc !important;
+}
+
+.night-mode .contact-motion a p:last-child {
+  color: #cbd5e1 !important;
 }
       `}</style>
     </main>

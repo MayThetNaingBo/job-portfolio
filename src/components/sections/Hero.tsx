@@ -61,7 +61,7 @@ export default function Hero() {
 
       <div className="relative z-10 mx-auto grid min-h-[82vh] w-full max-w-[1500px] items-center gap-10 px-2 md:grid-cols-[1.6fr_0.55fr] lg:px-10 xl:px-14">
         <div className="hero-left md:pl-2 lg:pl-4">
-          <p className="hero-text mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
+          <p className="highlight hero-text mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
             May&apos;s Portfolio •ᴗ•
           </p>
 

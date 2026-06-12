@@ -69,7 +69,7 @@ export default function EducationJourney() {
     >
       <div className="mx-auto max-w-5xl">
         <div className="mb-10 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-cyan-600 sm:text-sm">
+          <p className="highlight text-xs font-semibold uppercase tracking-[0.3em] text-cyan-600 sm:text-sm">
             Education
           </p>
 

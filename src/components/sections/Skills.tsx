@@ -225,7 +225,7 @@ export default function Skills() {
     >
       <div className="mx-auto w-full max-w-6xl">
         <div className="mb-25 text-center sm:mb-30 lg:mb-30">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
+          <p className="highlight text-xs font-semibold uppercase tracking-[0.25em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
             Capability
           </p>
 

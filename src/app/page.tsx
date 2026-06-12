@@ -198,7 +198,7 @@ export default function Home() {
 .night-mode textarea::placeholder {
   color: #94a3b8 !important;
 }
-  .night-mode .project-roman {
+  .night-mode .highlight {
   color: #22d3ee !important;
   text-shadow:
     0 0 8px rgba(34, 211, 238, 0.8),

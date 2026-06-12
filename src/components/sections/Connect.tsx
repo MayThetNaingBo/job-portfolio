@@ -92,7 +92,7 @@ export default function Contact() {
     >
       <div className="mx-auto w-full max-w-5xl">
         <div className="mb-10 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
+          <p className="highlight text-xs font-semibold uppercase tracking-[0.25em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
             Contact
           </p>
 
@@ -200,7 +200,7 @@ export default function Contact() {
           </form>
         </div>
 
-        <p className="mt-12 text-center text-sm leading-7 text-slate-600 sm:mt-14">
+        <p className="highlight mt-12 text-center text-sm leading-7 text-slate-600 sm:mt-14">
           © 2026 MAY THET NAING BO. Built with Next.js, Tailwind CSS, and GSAP.
         </p>
       </div>

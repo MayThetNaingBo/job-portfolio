@@ -136,7 +136,7 @@ rows.forEach((row, index) => {
     >
       <div className="mx-auto w-full max-w-7xl">
         <div className="mb-14 text-center sm:mb-20">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
+          <p className="highlight  text-xs font-semibold uppercase tracking-[0.25em] text-cyan-600 sm:text-sm sm:tracking-[0.35em]">
             My Work 
           </p>
           
@@ -210,7 +210,7 @@ rows.forEach((row, index) => {
                       isLeft ? "lg:pl-16 xl:pl-20" : "lg:pr-16 xl:pr-20"
                     }`}
                   >
-                    <p className="project-roman mb-2 text-3xl font-black tracking-wider text-cyan-500 sm:text-4xl lg:text-5xl">
+                    <p className="highlight mb-2 text-3xl font-black tracking-wider text-cyan-500 sm:text-4xl lg:text-5xl">
                       {romanNumbers[index]}
                     </p>
 

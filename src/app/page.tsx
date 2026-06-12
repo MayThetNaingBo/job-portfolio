@@ -99,7 +99,7 @@ export default function Home() {
     animationDuration: `${1.8 + (i % 4)}s`,
   }}
 >
-  🟅
+  ⯍
 </span>
           ))}
       </div>

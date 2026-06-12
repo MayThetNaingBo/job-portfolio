@@ -108,7 +108,7 @@ export default function Contact() {
         <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-10">
           <div className="contact-motion flex flex-col justify-center">
             <p className="text-center text-xl font-semibold text-slate-950 lg:text-left">
-              Find me here ⤵︎⤵
+              Find me here 
             </p>
 
           <div className="relative mx-auto mt-6 w-full max-w-xl space-y-5 pl-6 lg:mx-0">

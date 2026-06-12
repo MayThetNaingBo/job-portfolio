@@ -76,7 +76,7 @@ export default function EducationJourney() {
           <h2 className="mt-4 text-3xl font-extrabold text-slate-950 sm:text-4xl md:text-5xl">
             My Journey Here
           </h2>
-          <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-slate-700 sm:text-4xl sm:leading-9 lg:text-xl lg:leading-10">
+          <p className="mx-auto mt-4 max-w-2xl px-4 text-sm leading-6 text-slate-700 sm:text-base sm:leading-7 lg:text-lg lg:leading-8">
             After completing my matriculation education in Myanmar, I moved to Singapore to pursue a Diploma in Information Technology and grow my passion for technology.
           </p>
         </div>

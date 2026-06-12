@@ -147,9 +147,8 @@ rows.forEach((row, index) => {
 
           <div className="mx-auto mt-5 h-1 w-28 rounded-full bg-cyan-400 sm:w-44" />
 
-          <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-slate-700 sm:text-4xl sm:leading-9 lg:text-xl lg:leading-10">
-            Below is a showcase of the projects I have built so far for software
-            engineering, DevOps, AI, and cloud learning.
+          <p className="mx-auto mt-5 max-w-2xl px-4 text-sm leading-6 text-slate-700 sm:text-base sm:leading-7 lg:text-lg lg:leading-8">
+            Below is a showcase of the projects I have built so far for software engineering, DevOps, AI, and cloud learning.
           </p>
         </div>
 
